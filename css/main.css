@@ -136,7 +136,10 @@
   background-color: #333;
   opacity: 0.4;
   color: white;
-  text-align: center;
+  }
+  .footer a {
+    text-align: center;
+    font-family: 'Teko', sans-serif;
   }
   .button1 {
     background-color: white; 
