@@ -1,0 +1,145 @@
+@font-face {
+    font-family: fatCow;
+    src: url("../fonts/FatCow.ttf");
+  }
+  
+  @font-face {
+    font-family: libel;
+    src: url("../fonts/libel-suit-rg.ttf");
+  }
+  
+  @font-face {
+    font-family: nasalization;
+    src: url("../fonts/nasalization-rg.ttf");
+  }
+  
+  @font-face {
+    font-family: wowater;
+    src: url("../fonts/world-of-water.ttf");
+  }
+  
+  @font-face {
+    font-family: minecraft;
+    src: url("../fonts/Minecraft.ttf");
+  }
+  
+  h1 {
+  font-family: wowater;
+  text-align: center;
+  color: GhostWhite;
+  }
+  
+  h2 {
+  font-family: nasalization;
+  text-align: center;
+  font-size: 15px;
+  }
+  
+  h3 {
+  font-family: minecraft;
+  text-align: center;
+  color: rgb(0, 121, 121);
+  font-size: 100px;
+  }
+  
+  h4 {
+  font-family: libel;
+  text-align: center;
+  color: ghostwhite;
+  font-size: 30px;
+  }
+  
+  h6 {
+  font-family: fatCow;
+  text-align: center;
+  color: ghostwhite;
+  font-size: 30px;
+  display: inline;
+  }
+  
+  a {
+  font-family: nasalization;
+  text-align: center;
+  color: ghostwhite;
+  font-size: 15px;
+  display: inline;
+  }
+  
+  p {
+  font-family: nasalization;
+  text-align: center;
+  color: ghostwhite;
+  font-size: 15px;
+  display: inline;
+  }
+  
+  
+  body {
+  background-image: url("../img/background.jpg"); /* The image used https://yourcraft.pl/cdn/img/bg.png*/
+  background-color: #cccccc; /* Used if the image is unavailable */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  }
+  
+  #bungee{
+  display: inline-block;
+  }
+  
+  button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  }
+  
+  /* Add a black background color to the top navigation */
+  .topnav {
+  background-color: invisible;
+  opacity: 1;
+  overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  opacity: 10;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Teko', sans-serif;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+  background-color: invisible;
+  color: #afafaf;
+  }
+  
+  .buttonHolder{ text-align: center; }
+
+  .buttonHolder button:hover {
+    background-color: #357937;
+  }
+  
+  .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  opacity: 0.4;
+  color: white;
+  text-align: center;
+  }
+  .button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
