@@ -23,12 +23,17 @@
         </center> </span> <br>
         <span style="font-size: x-large"><center>  
         <center>Logowanie</center> <br> </span>
+        <span style
         <form method="POST" action="/auth">
             <label for="email">Email:</label><br>
             <input type="text" id="email" name="email"><br>
             <label for="pass">Hasło:</label><br>
-            <input type="text" id="pass" name="pass"><br>
-            <button class="button" style="vertical-align:middle">Zaloguj się</button>
+            <input type="password" id="pass" name="pass"><br>
+            <button class="button" style="vertical-align:middle">Zaloguj się</button><br>
+            Nowy? <a href="/panel/auth/register">Zarejestruj się</a> 
         </form>
+        <div class="footer">
+            <p>Copyright <a href="https://uqlel.cf/">uQlel</a>. Kopiowanie zabronione</p>
+        </div>
     </body>
 </html>
