@@ -23,11 +23,12 @@
         </center> </span> <br>
         <span style="font-size: x-large"><center>  
         <center>Logowanie</center> <br> </span>
-        <div>
-            <label for="pass">Hasło (minimum 8 znaków):</label>
-            <input type="password" id="pass" name="password"
-                   minlength="8" required>
-        </div>
-        <input type="submit" class="button" value="Zaloguj się">
+        <form method="POST" action="/auth">
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email"><br>
+            <label for="pass">Hasło:</label><br>
+            <input type="text" id="pass" name="pass"><br>
+            <button class="button" style="vertical-align:middle">Zaloguj się</button>
+        </form>
     </body>
 </html>
