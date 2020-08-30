@@ -75,7 +75,7 @@
   
   
   body {
-  background-image: url("../img/background.jpg"); /* The image used https://yourcraft.pl/cdn/img/bg.png*/
+  background-image: url("/img/background.jpg"); /* The image used https://yourcraft.pl/cdn/img/bg.png*/
   background-color: #cccccc; /* Used if the image is unavailable */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
