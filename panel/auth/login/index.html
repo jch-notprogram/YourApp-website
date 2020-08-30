@@ -2,6 +2,7 @@
     <head>
         <link rel="stylesheet" href="/static/css/style.css">
         <link rel="stylesheet" href="/static/css/style2.css">
+        <link rel="stylesheet" href="/static/css/login.css">
         <link href="https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">  
               <meta content="https://yapp.cf" property="og:url">
@@ -23,15 +24,28 @@
         </center> </span> <br>
         <span style="font-size: x-large"><center>  
         <center>Logowanie</center> <br> </span>
-        <span style
-        <form method="POST" action="/auth">
-            <label for="email">Email:</label><br>
-            <input type="text" id="email" name="email"><br>
-            <label for="pass">Hasło:</label><br>
-            <input type="password" id="pass" name="pass"><br>
-            <button class="button" style="vertical-align:middle">Zaloguj się</button><br>
+        <div class="login-box">
+            <h2>Login</h2>
+            <form>
+              <div class="user-box">
+                <input type="text" name="" required="">
+                <label>Username</label>
+              </div>
+              <div class="user-box">
+                <input type="password" name="" required="">
+                <label>Password</label>
+              </div>
+              <a href="/auth">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Zaloguj się
+              </a>
+              <a href="/panel/auth/register">Zarejestruj się</a> 
+            </form>
+          </div>
             Nowy? <a href="/panel/auth/register">Zarejestruj się</a> 
-        </form>
         <div class="footer">
             <p>Copyright <a href="https://uqlel.cf/">uQlel</a>. Kopiowanie zabronione</p>
         </div>
