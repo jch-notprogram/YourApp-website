@@ -10,6 +10,7 @@ html, body {
 #header {
     background:#333032;
     padding:0px;
+    opacity: 0.8;
 }
 #middle {
     padding:10px;
