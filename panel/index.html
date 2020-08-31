@@ -2,6 +2,7 @@
     <head>
         <link rel="stylesheet" href="/static/css/style.css">
         <link rel="stylesheet" href="/static/css/style2.css">
+        <script src='/static/js/sidebar.js'></script>
         <link href="https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">  
               <meta content="https://yapp.cf" property="og:url">
@@ -11,6 +12,7 @@
     </head>
     <body>
         <div id="header"><div class="topnav">
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()"></span>
             <a href="/yshrt">YourShort</a>
             <a href="/yimgs">YourImgs</a>
             <a href="/yfiles">YourFiles</a>
@@ -18,6 +20,15 @@
             <a href="/dctools">DiscordTools</a>
             <a href="/panel">Panel</a>
         </div></div>
+        
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href='konto'>Konto</a>
+            <a href='pliki'>Pliki</a>
+            <a href="webhook">Webhook</a>
+            <a href="url">Skracanie URL</a>
+        </div>
+        
         <div class="footer">
             <center>Copyright <a href="https://uqlel.cf/">uQlel</a>. Kopiowanie zabronione</center>
         </div>
